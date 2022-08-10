@@ -1,0 +1,123 @@
+@media screen and (min-width:701px) and (max-width:901px) {
+
+    .card-detail h1,
+    .card-detail2 h1 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    .card-detail p,
+    .card-detail2 p {
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .cards .card-img {
+        text-align: center;
+        margin-right: 20px;
+    }
+
+    .cards img {
+        width: 100%;
+    }
+
+    .mail-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mail-box button {
+        margin-top: 15px;
+    }
+
+    .container .logo {
+        margin-top: 10px;
+        width: 130px;
+    }
+}
+
+@media screen and (min-width:530px) and (max-width:700px) {
+    .cardsOdd {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .cardsEven {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .card-detail,
+    .card-detail2 {
+        text-align: center;
+        position: relative;
+        width: 100%;
+    }
+
+    .card-detail h1,
+    .card-detail2 h1 {
+        font-size: 35px;
+        text-align: center;
+        line-height: normal;
+    }
+
+    .card-detail p,
+    .card-detail2 p {
+        font-size: 1.25rem;
+    }
+
+    .footer p {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .footer .heading h1 {
+        text-align: center;
+    }
+
+    .footer-wrapper {
+        flex-direction: column;
+    }
+
+    .footer-col {
+        text-align: center;
+    }
+
+    .container .logo {
+        width: 100px;
+    }
+
+    nav {
+        align-items: flex-start;
+        display: flex;
+        flex-flow: row nowrap;
+        height: auto;
+        justify-content: flex-start;
+        padding-top: 0.5rem;
+    }
+
+    .mail-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mail-box button {
+        margin-top: 15px;
+    }
+
+    .content h1 {
+        font-size: 30px;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+
+    .content h3
+    {
+        font-size: 20px;
+    }
+}
