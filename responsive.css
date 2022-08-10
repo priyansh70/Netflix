@@ -1,4 +1,4 @@
-@media screen and (min-width:701px) and (max-width:901px) {
+@media screen and (min-width:700px) and (max-width:901px) {
 
     .card-detail h1,
     .card-detail2 h1 {
@@ -35,6 +35,11 @@
     .container .logo {
         margin-top: 10px;
         width: 130px;
+    }
+
+    .footer p {
+        text-align: center;
+        font-size: 15px;
     }
 }
 
@@ -116,8 +121,146 @@
         margin-top: 20px;
     }
 
-    .content h3
-    {
+    .content h3 {
         font-size: 20px;
+    }
+}
+
+@media screen and (min-width:250px) and (max-width:530px) {
+    nav {
+        padding: 5px 10px;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .container .logo {
+        width: 75px;
+    }
+
+    .btn {
+        display: flex;
+        justify-content: flex-end;
+        flex: 1;
+        padding-right: 2px;
+        margin-left: 10px;
+    }
+
+    .container nav .sign-in {
+        padding: 2px 7px;
+        border-radius: 5px;
+        font-weight: 500;
+        font-size: 12px;
+    }
+
+    .container nav .lang {
+        margin: 5px 10px 0px 0px;
+    }
+
+    .container nav .lang select {
+        text-align: center;
+        padding: 3px 7px;
+    }
+
+    .content h1 {
+        font-size: 25px;
+        font-weight: 600;
+        margin-top: 15px;
+        line-height: normal;
+    }
+
+    .content h3 {
+        font-size: 15px;
+        line-height: normal;
+    }
+
+    .content p {
+        font-size: 12px;
+        line-height: normal;
+    }
+
+    .mail-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-basis: 50%;
+    }
+
+    .mail-box input {
+        height: 40px;
+        width: 75%;
+        min-width: 200px;
+    }
+
+    .mail-box button {
+        margin-top: 10px;
+        width: 150px;
+        height: 40px;
+    }
+
+    .footer p {
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .footer .heading h1 {
+        text-align: center;
+    }
+
+    .footer-wrapper {
+        flex-direction: column;
+    }
+
+    .footer-col {
+        text-align: center;
+    }
+
+    .cards
+    {
+        flex-direction: column;
+    }
+
+    .cardsEven
+    {
+        flex-direction: column-reverse;
+    }
+
+    .card-detail,
+    .card-detail2 {
+        flex-basis: 100%;
+        height: auto;
+    }
+
+    .card-detail h1,
+    .card-detail2 h1{
+        text-align: center;
+        font-size: 25px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .card-detail p,
+    .card-detail2 p{
+        text-align: center;
+        font-size: 15px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .card-img , .img2
+    {
+        text-align: center;
+        width: 100%;
+    }
+
+    .footer .heading
+    {
+        width: 100%;
+    }
+    
+    .footer .heading h1
+    {
+        text-align: center;
+        font-size: 12px;
     }
 }
